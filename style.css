@@ -31,7 +31,7 @@ p {
 
 }
 a {
-  color: black;
+  color: #0D006A;
   font-size: 30px;
 }
 a:hover {
@@ -98,7 +98,7 @@ a:hover {
 #menuToggle
 {
   display: block;
-  position: relative;
+  position: absolute;
   top: 50px;
   left: 50px;
   
@@ -116,7 +116,6 @@ a:hover {
   position: absolute;
   top: -7px;
   left: -5px;
-  
   cursor: pointer;
   
   opacity: 0; /* hide this */
@@ -136,7 +135,7 @@ a:hover {
   margin-bottom: 5px;
   position: relative;
   
-  background: black;
+  background: #EFEECB;
   border-radius: 3px;
   
   z-index: 1;
@@ -166,7 +165,7 @@ a:hover {
 {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: #232323;
+  background: #0D006A;
 }
 
 /*
@@ -198,7 +197,7 @@ a:hover {
   padding: 50px;
   padding-top: 125px;
   
-  background: white;
+  background: #EFEECB;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
