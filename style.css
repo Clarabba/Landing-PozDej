@@ -45,13 +45,20 @@ a:hover {
 	background-image: url("images/couverture.png");
 	background-size: cover;
   background-attachment: fixed;
-  height: 70vh;
+  height: 100vh;
   margin: 0px;
-	padding: 100px;
+  padding-bottom: 50px; 
 	color: white;
 	text-shadow: 2px 2px 9px black;
   background-position: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
 
+.arrow {
+  color: #EFEECB;
+  font-size: 60px;
 }
 
 #banner h1 {
